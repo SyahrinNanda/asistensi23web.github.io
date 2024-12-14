@@ -1,0 +1,90 @@
+/* Reset dasar untuk margin dan padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Gaya untuk body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* Kontainer utama */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Gaya untuk gambar */
+.image img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Gaya untuk teks */
+.text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.text p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Kontainer untuk button */
+.card-button {
+  display: flex;
+  align-items: center; /* Vertikal center */
+  justify-content: center; /* Horizontal center */
+  gap: 10px; /* Memberi jarak antar button */
+  height: 100vh; /* Agar kontainer memenuhi layar */
+}
+
+/* Gaya untuk setiap button */
+.button-1,
+.button-2,
+.button-4,
+.button-3 {
+  width: 100px;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Warna untuk button */
+.button-1 {
+  background-color: red;
+  color: white;
+}
+
+.button-2 {
+  background-color: blue;
+  color: white;
+}
+
+.button-3 {
+  background-color: yellow;
+  color: black;
+}
+.button-4 {
+  background-color: rgb(224, 214, 214);
+  color: black;
+}
+
+/* Hover effect (opsional) */
+.button-1:hover,
+.button-2:hover,
+.button-4:hover,
+.button-3:hover {
+  opacity: 0.8;
+}
